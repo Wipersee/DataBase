@@ -8,11 +8,11 @@ year_id INTEGER,
 name_of_game VARCHAR2(256)
 );
 CREATE TABLE sales(
-game_rank INTEGER ,
-NA_sales DECIMAL,
-EU_sales DECIMAL,
-JP_sales DECIMAL,
-Other_sales DECIMAL
+game_rank INTEGER UNIQUE,
+NA_sales DECIMAL(5,2),
+EU_sales DECIMAL(5,2),
+JP_sales DECIMAL(5,2),
+Other_sales DECIMAL(5,2)
 );
 CREATE TABLE genre(
 genre_id INTEGER PRIMARY KEY,
