@@ -1,22 +1,22 @@
 ---CREATING TABLES-----
 CREATE TABLE game(
 game_rank INTEGER PRIMARY KEY,
-genre_id INTEGER UNIQUE,
-company_id INTEGER UNIQUE,
-platform_id INTEGER UNIQUE,
-year_id INTEGER UNIQUE,
+genre_id INTEGER,
+company_id INTEGER,
+platform_id INTEGER,
+year_id INTEGER,
 name_of_game VARCHAR2(256)
 );
 CREATE TABLE sales(
+game_rank INTEGER ,
 NA_sales DECIMAL,
 EU_sales DECIMAL,
 JP_sales DECIMAL,
-Other_sales DECIMAL,
-game_rank INTEGER 
+Other_sales DECIMAL
 );
 CREATE TABLE genre(
-genre VARCHAR2(256),
-genre_id INTEGER PRIMARY KEY
+genre_id INTEGER PRIMARY KEY,
+genre VARCHAR2(256)
 );
 CREATE TABLE release_year(
 year_id INTEGER PRIMARY KEY,
