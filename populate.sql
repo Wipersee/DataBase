@@ -26,3 +26,9 @@ insert into sales values(1,41.49,29.02,3.77,8.46);
 
 insert into game values(2,2,1,2,2,'Super Mario Bros.');
 insert into sales values(2,29.08,3.58,6.81,0.77);
+
+insert into game values(3,2,1,2,2,'Example')
+insert into sales values(3,29.08,3.58,6.81,0.77)
+
+insert into game values(4,4,3,4,1,'Example_2')
+insert into sales values(4,9.08,31.58,62.81,10.77)
