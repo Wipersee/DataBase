@@ -24,8 +24,5 @@ insert into release_year values(5,2013);
 insert into game values(1,1,1,1,1,'Wii Sports');
 insert into sales values(1,41.49,29.02,3.77,8.46);
 
-insert into game values(1,1,1,1,1,'Super Mario Bros.');
-insert into sales values(1,41.49,29.02,3.77,8.46);
-
 insert into game values(2,2,1,2,2,'Super Mario Bros.');
-insert into sales values(1,29.08,3.58,6.81,0.77);
+insert into sales values(2,29.08,3.58,6.81,0.77);
