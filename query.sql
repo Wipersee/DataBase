@@ -4,7 +4,7 @@ inner join release_year using(year_id)
 inner join sales using(game_rank)
 GROUP BY realease_year;
 
-
+---
 select sum(NA_sales) as SUMMARY_NA_sales, sum(EU_sales) as SUMMARY_EU_sales, sum(JP_sales) as SUMMARY_JP_sales, sum(Other_sales) as SUMMARY_Other_sales from
 (select company
 ,ROUND(sum(NA_sales))as NA_sales
