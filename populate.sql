@@ -1,7 +1,7 @@
 insert into companies values (1,'Nintendo');
 insert into companies values (2,'Microsoft Game Studios');
 insert into companies values (3,'Take-Two Interactive');
-
+---
 insert into genre values(1,'Sports');
 insert into genre values(2,'Platform');
 insert into genre values(3,'Racing');
