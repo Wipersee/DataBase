@@ -13,7 +13,7 @@ my_conn = cx_Oracle.connect("hr/11@localhost:1521/orcl")
 cursor = my_conn.cursor()
 
 
-#MAKING 1 QUERY
+#MAKING 1 QUERYs
 re1 = "select realease_year, (sum(NA_sales)+sum(EU_sales)+sum(JP_sales)+sum(Other_sales)) as SUMMARY_SALES from game inner join release_year using(year_id) inner join sales using(game_rank) GROUP BY realease_year"
 
 cursor.execute(re1)
