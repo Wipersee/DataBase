@@ -14,7 +14,7 @@ cursor = my_conn.cursor()
 
 
 re1 = "select realease_year, (sum(NA_sales)+sum(EU_sales)+sum(JP_sales)+sum(Other_sales)) as SUMMARY_SALES from game inner join release_year using(year_id) inner join sales using(game_rank) GROUP BY realease_year"
-print("---------first query-------")
+print("---------first query--------")
 print_table(cursor, re1)
 
 
