@@ -16,19 +16,19 @@ Other_sales DECIMAL(5,2)
 );
 CREATE TABLE genre(
 genre_id INTEGER PRIMARY KEY,
-genre VARCHAR2(256)
+genre VARCHAR2(256) UNIQUE
 );
 CREATE TABLE release_year(
 year_id INTEGER PRIMARY KEY,
-realease_year INTEGER
+realease_year INTEGER UNIQUE
 );
 CREATE TABLE platform(
 platform_id INTEGER PRIMARY KEY,
-platfrom VARCHAR2(256)
+platfrom VARCHAR2(256) UNIQUE
 );
 CREATE TABLE companies(
 company_id INTEGER PRIMARY KEY,
-company VARCHAR2(256)
+company VARCHAR2(256) UNIQUE
 );
 
 
